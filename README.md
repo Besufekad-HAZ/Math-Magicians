@@ -36,7 +36,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Leaderboard <a name="about-project"></a>
+# 📖 Math magicians <a name="about-project"></a>
 
 A website for organizing daily activities
 
@@ -203,7 +203,7 @@ If you like this project rate it and give it a star.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
---> I would like to thank the Microverse team for allowing us to work on this Leaderboard API project.
+--> I would like to thank the Microverse team for allowing us to work on this Math magicians project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
