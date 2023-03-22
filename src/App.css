@@ -1,39 +1,78 @@
-.App {
-  text-align: center;
+@import url("https://fonts.cdnfonts.com/css/stella-nova");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Stella Nova", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: rgb(24, 96, 109);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.calc {
+  margin: 3rem auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 5% 5% 8%;
+  grid-auto-rows: 5em;
+  background-color: rgb(131, 191, 255);
+  width: 50%;
+  border-radius: 30px;
+  grid-row-gap: 2.2%;
+  grid-column-gap: 10px;
 }
 
-.App-header {
-  background-color: #010b1f;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+button {
+  font-size: 1.3em;
+  font-weight: bold;
+  width: 100%;
+  border: none;
   color: white;
+  background-color: rgb(4, 9, 56);
+  border-radius: 0.7rem;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+button:hover {
+  color: rgb(4, 9, 56);
+  background-color: antiquewhite;
+  transition: 0.25s ease-in;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
+.section_view {
+  grid-column: 1/5;
+  border-radius: 0.7rem;
+  border: 2px solid rgb(2, 4, 30);
+  text-align: right;
+  font-size: 1.5em;
+  padding: 1rem 20px;
+  background-color: rgb(255, 255, 255);
+  animation: blink 2s;
+  animation-iteration-count: 10;
+}
 
-  to {
-    transform: rotate(360deg);
+@keyframes blink {
+  50% {
+    border-color: #fff;
   }
+}
+
+.section_value {
+  color: rgb(2, 4, 30);
+  font-size: 2.2rem;
+}
+
+.zero {
+  grid-column: 1/3;
+}
+
+.operator {
+  background-color: rgb(120, 255, 96);
+  color: black;
+}
+
+.operator:hover {
+  background-color: rgb(4, 176, 142);
 }
