@@ -1,5 +1,6 @@
 @import url("https://fonts.cdnfonts.com/css/stella-nova");
 @import url("https://fonts.googleapis.com/css?family=Special+Elite");
+
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +13,7 @@ body {
 }
 
 .title {
-  margin-left: 0px;
+  margin-left: 0;
   position: absolute;
 }
 
@@ -101,7 +102,7 @@ button:hover {
   color: rgb(24, 96, 109);
   display: flex;
   flex-direction: column;
-  gap:1rem;
+  gap: 1rem;
 }
 
 .error {
@@ -119,7 +120,7 @@ button:hover {
   text-align: center;
   background-color: white;
   padding-top: 1rem;
-  width:90%;
+  width: 90%;
 }
 
 blockquote {
@@ -135,23 +136,24 @@ blockquote {
   padding: 0.5rem;
 }
 
-blockquote:before,
-blockquote:after {
+blockquote::before,
+blockquote::after {
   position: absolute;
   font-size: 5rem;
   width: 3rem;
   height: 3rem;
 }
 
-blockquote:before {
+blockquote::before {
   content: "“";
-  left: -3rem;
-  top: -2rem;
+  left: -2rem;
+  top: -2.5rem;
 }
 
-blockquote:after {
+blockquote::after {
   content: "”";
-  right: -3rem;
+  right: -2rem;
+  bottom: -1rem;
 }
 
 cite {

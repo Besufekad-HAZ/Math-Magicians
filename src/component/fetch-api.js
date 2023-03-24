@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-// import FormatQuoteOutlinedIcon from '@mui/icons-material/FormatQuoteOutlined';
 
 const ApiQuote = () => {
   const quotesURL = 'https://api.api-ninjas.com/v1/quotes';
