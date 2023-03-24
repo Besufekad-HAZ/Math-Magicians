@@ -102,7 +102,7 @@ N/A
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](N/A)
+- (N/A) Not available yet. It will available after deployment.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
