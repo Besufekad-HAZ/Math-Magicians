@@ -1,4 +1,5 @@
 @import url("https://fonts.cdnfonts.com/css/stella-nova");
+@import url("https://fonts.googleapis.com/css?family=Special+Elite");
 
 * {
   margin: 0;
@@ -9,6 +10,11 @@
 
 body {
   background-color: rgb(24, 96, 109);
+}
+
+.title {
+  margin-left: 0;
+  position: absolute;
 }
 
 .calc {
@@ -85,4 +91,75 @@ button:hover {
 
 .operator:hover {
   background-color: rgb(4, 176, 142);
+}
+
+.quotes {
+  justify-content: center;
+  margin: 2rem auto;
+  padding: 2rem;
+  align-items: center;
+  width: 90%;
+  color: rgb(24, 96, 109);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.error {
+  color: red;
+  font-size: 2rem;
+  font-family: "Special Elite", cursive;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+
+.quote-Contain {
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: white;
+  padding-top: 1rem;
+  width: 90%;
+}
+
+blockquote {
+  justify-content: center;
+  margin: 20px auto;
+  font-family: "Special Elite", cursive;
+  font-weight: 100;
+  font-size: 1.5rem;
+  color: rgb(24, 96, 109);
+  max-width: 700px;
+  line-height: 1.4;
+  position: relative;
+  padding: 0.5rem;
+}
+
+blockquote::before,
+blockquote::after {
+  position: absolute;
+  font-size: 5rem;
+  width: 3rem;
+  height: 3rem;
+}
+
+blockquote::before {
+  content: "“";
+  left: -2rem;
+  top: -2.5rem;
+}
+
+blockquote::after {
+  content: "”";
+  right: -2rem;
+  bottom: -1rem;
+}
+
+cite {
+  line-height: 3;
+  text-align: left;
+  text-decoration: underline;
+  font-style: italic;
+  font-size: large;
 }
