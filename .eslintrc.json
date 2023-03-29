@@ -24,5 +24,14 @@
     "import/no-unresolved": "off",
     "no-shadow": "off"
   },
+  "import/no-extraneous-dependencies": [
+    "error",
+    {
+      "devDependencies": false,
+      "optionalDependencies": false,
+      "peerDependencies": false,
+      "packageDir": "./"
+    }
+  ],
   "ignorePatterns": ["dist/", "build/"]
 }

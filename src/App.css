@@ -1,5 +1,6 @@
 @import url("https://fonts.cdnfonts.com/css/stella-nova");
 @import url("https://fonts.googleapis.com/css?family=Special+Elite");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
 
 * {
   margin: 0;
@@ -9,7 +10,21 @@
 }
 
 body {
-  background-color: rgb(24, 96, 109);
+  background-image: url("./images/math-bg.jpg");
+  background-color: rgba(0, 83, 65, 0.5);
+  background-blend-mode: luminosity;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(24, 96, 109);
+  background-color: rgba(246, 255, 253, 0.9);
+  padding: 2% 10%;
+  border-bottom: 8px solid #001225;
+  border-radius: 1px;
 }
 
 .title {
@@ -17,27 +32,171 @@ body {
   position: absolute;
 }
 
+nav {
+  width: 30%;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+  margin: 2% auto 0;
+  gap: 10%;
+  align-items: center;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: rgb(24, 96, 109);
+  font-size: 1.3rem;
+  align-self: center;
+}
+
+.nav-list a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.main-page {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin: 2rem auto;
+  justify-content: center;
+  text-align: center;
+  height: auto;
+  font-family: Quicksand;
+  font-size: 1.4rem;
+  padding: 5% 10%;
+  text-align: center justify;
+  color: aquamarine;
+}
+
+.main-page h2 {
+  font-family: Quicksand;
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 2rem 0px;
+  color: rgb(0, 255, 255);
+}
+
+.main-page p {
+  font-family: Quicksand;
+  color: aquamarine;
+}
+
+.button-group {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 7%;
+  align-items: center;
+  list-style: none;
+}
+
+.link-btn {
+  cursor: pointer;
+  background: none;
+  padding: 1em;
+  width: 80%;
+  border: 1px solid rgba(255, 255, 255);
+  border-radius: 6px;
+  color: rgba(255, 255, 255);
+  font-size: 19px;
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 2.5em;
+  margin: 25% auto;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  text-decoration: none;
+  display: flex;
+  width: 100%;
+}
+
+.link-btn:hover {
+  background: rgba(255, 255, 255);
+  color: rgb(12, 70, 78);
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.symbol-icon {
+  margin-left: 10px;
+  font-size: 1.3rem;
+}
+.quote-icon {
+  margin-left: 10px;
+  font-size: 1.4rem;
+}
+
+.calculate-page {
+  display: flex;
+  text-align: center;
+  height: auto;
+  text-align: center justify;
+}
+
+.new {
+  width: 50%;
+  padding: 0;
+  margin: 0;
+}
+
+.calculate-page h2 {
+  font-family: Quicksand;
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 2% 0 1%;
+  color: rgb(0, 255, 255);
+}
+
+.content {
+  margin: 9% 0 22% 9%;
+  width: 40%;
+  padding: 1%;
+  background-color: rgb(3, 23, 45, 0.7);
+  background-blend-mode: color-dodge;
+  border: 2px solid white;
+  border-radius: 20px;
+}
+
 .calc {
   margin: auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  padding: 3% 5% 8%;
+  padding: 4% 4% 12%;
   grid-auto-rows: 5em;
-  background-color: rgb(131, 191, 255);
-  width: 50%;
+  background-color: rgb(114, 198, 217);
+  width: 70%;
   border-bottom-left-radius: 4rem;
   border-bottom-right-radius: 4rem;
   grid-row-gap: 2.2%;
   grid-column-gap: 10px;
+  border-bottom: 5px solid rgb(4, 9, 56);
+}
+
+.calc-desc {
+  font-size: 1.3rem;
+  width: 70%;
+  margin: 1rem auto;
+  color: white;
+  font-weight: 600;
+  font-family: Quicksand;
 }
 
 .calc2 {
   margin: 3rem auto 0;
-  padding: 5% 5% 0%;
-  background-color: rgb(131, 191, 255);
-  width: 50%;
-  border-top-left-radius: 4rem;
-  border-top-right-radius: 4rem;
+  padding: 5% 5% 3%;
+  background-color: rgb(4, 9, 56);
+  width: 70%;
+  border: 2px solid rgb(114, 198, 217);
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
 }
 
 button {
@@ -63,7 +222,7 @@ button:hover {
   border: 2px solid rgb(2, 4, 30);
   text-align: right;
   font-size: 1.5em;
-  padding: 1rem 20px;
+  padding: 2%;
   background-color: rgb(255, 255, 255);
   animation: blink 2s;
   animation-iteration-count: 10;
@@ -107,6 +266,15 @@ button:hover {
 
 .error {
   color: red;
+  font-size: 2rem;
+  font-family: "Special Elite", cursive;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+
+.loading-msg {
+  margin-top: 10%;
+  color: rgb(255, 255, 255);
   font-size: 2rem;
   font-family: "Special Elite", cursive;
   -webkit-text-stroke-width: 1px;

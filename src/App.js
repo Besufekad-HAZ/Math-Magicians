@@ -1,18 +1,21 @@
 import React from 'react';
-import Calc from './component/main-calc';
-import ApiQuote from './component/fetch-api';
+import { Routes, Route } from 'react-router-dom';
 import './App.css';
+import Navbar from './component/Navigation';
+import CalculatorPage from './pages/Calculator';
+import QuotePage from './pages/Quote_API';
+import HomePage from './pages/Home';
 
 function App() {
   return (
-    <div className="All">
-      <div>
-        <Calc />
-      </div>
-      <div>
-        <ApiQuote />
-      </div>
-    </div>
+    <>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/calculator" element={<CalculatorPage />} />
+        <Route path="/quote" element={<QuotePage />} />
+      </Routes>
+    </>
   );
 }
 

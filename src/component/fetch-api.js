@@ -33,7 +33,7 @@ const ApiQuote = () => {
           <cite>{quote.author}</cite>
         </div>
       ))}
-      {loading && <div>Loading...</div>}
+      {loading && <div className="loading-msg">Loading...</div>}
     </div>
   );
 };
