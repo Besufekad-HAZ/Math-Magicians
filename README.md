@@ -92,7 +92,7 @@ In this first project of the Math Magicians application. I set up the environmen
 
 ## 🚀 Screenshot <a name="screenshot"></a>
 
-N/A
+![image](https://user-images.githubusercontent.com/23375153/228686248-1ea1a33a-9f96-42d1-9a0f-be55cb6c5a49.png)
 
 ## 💻 Loom Presentation Video <a name="loom-video"></a>
 
