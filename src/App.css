@@ -67,25 +67,24 @@ nav {
   flex-direction: column;
   margin: 2rem auto;
   justify-content: center;
-  text-align: center;
   height: auto;
-  font-family: Quicksand;
+  font-family: "Quicksand", sans-serif;
   font-size: 1.4rem;
   padding: 5% 10%;
-  text-align: center justify;
+  text-align: center;
   color: aquamarine;
 }
 
 .main-page h2 {
-  font-family: Quicksand;
+  font-family: "Quicksand", sans-serif;
   font-size: 3rem;
   font-weight: 700;
-  margin: 2rem 0px;
+  margin: 2rem 0;
   color: rgb(0, 255, 255);
 }
 
 .main-page p {
-  font-family: Quicksand;
+  font-family: "Quicksand", sans-serif;
   color: aquamarine;
 }
 
@@ -102,7 +101,6 @@ nav {
   cursor: pointer;
   background: none;
   padding: 1em;
-  width: 80%;
   border: 1px solid rgba(255, 255, 255);
   border-radius: 6px;
   color: rgba(255, 255, 255);
@@ -129,6 +127,7 @@ nav {
   margin-left: 10px;
   font-size: 1.3rem;
 }
+
 .quote-icon {
   margin-left: 10px;
   font-size: 1.4rem;
@@ -138,7 +137,6 @@ nav {
   display: flex;
   text-align: center;
   height: auto;
-  text-align: center justify;
 }
 
 .new {
@@ -148,7 +146,7 @@ nav {
 }
 
 .calculate-page h2 {
-  font-family: Quicksand;
+  font-family: "Quicksand", sans-serif;
   font-size: 3rem;
   font-weight: 700;
   margin: 2% 0 1%;
@@ -186,7 +184,7 @@ nav {
   margin: 1rem auto;
   color: white;
   font-weight: 600;
-  font-family: Quicksand;
+  font-family: "Quicksand", sans-serif;
 }
 
 .calc2 {
