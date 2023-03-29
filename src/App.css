@@ -12,16 +12,26 @@ body {
 }
 
 .calc {
-  margin: 3rem auto;
+  margin: auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  padding: 5% 5% 8%;
+  padding: 3% 5% 8%;
   grid-auto-rows: 5em;
   background-color: rgb(131, 191, 255);
   width: 50%;
-  border-radius: 30px;
+  border-bottom-left-radius: 4rem;
+  border-bottom-right-radius: 4rem;
   grid-row-gap: 2.2%;
   grid-column-gap: 10px;
+}
+
+.calc2 {
+  margin: 3rem auto 0;
+  padding: 5% 5% 0%;
+  background-color: rgb(131, 191, 255);
+  width: 50%;
+  border-top-left-radius: 4rem;
+  border-top-right-radius: 4rem;
 }
 
 button {
