@@ -102,7 +102,7 @@ In this first project of the Math Magicians application. I set up the environmen
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- - [Live Demo Link](https://6425ee977d248300b5a7d207--math-magicians-calc-app.netlify.app)
+- [Live Demo Link](https://6425ee977d248300b5a7d207--math-magicians-calc-app.netlify.app)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
