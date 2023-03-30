@@ -28,8 +28,7 @@
       {
         "devDependencies": false,
         "optionalDependencies": false,
-        "peerDependencies": false,
-        "packageDir": "./"
+        "peerDependencies": false
       }
     ]
   },
